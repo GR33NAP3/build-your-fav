@@ -1,0 +1,82 @@
+body{
+background-color: black;
+color:white;
+}
+/****************added stylings to the nav bar************************/
+nav{
+    background-color: #111;
+}
+#logo:hover{
+    color:white;
+}
+#logo{
+    color:orange;
+}
+nav a{
+    color:white;
+}
+.dmenu{
+    background-color: #111;
+}
+.dmenu a{
+    color:white;
+}
+/***********************adding background color to the carosel******************************/
+.container1{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 42vh;
+}
+.container1 img{
+    height: 40vh;
+    width: 75%;
+}
+.left{
+    width:18vw;
+    height:100%;
+}
+.middle{
+    width:60vw;
+}
+.botom{
+    width:18vw;
+}
+
+
+/********************second flexbox ************************/
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 3em;
+    gap:1em;
+    flex-wrap: wrap;
+    max-height: 40vh;
+}
+.container2 div{
+    background-color:#111;
+    max-width: 12%;
+    font-size:12px;
+    height:4em;
+    text-align: center;
+    }
+    hr{
+        border: .5em solid lightblue;
+        border-radius: 5px;
+    }
+/****************last flex with the pictures***************************/
+.containerimg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-height: 20vh;
+}
+.containerimg img{ /*makes the pictures resized and inline*/
+    height:30vh;
+    max-width: 14vw;
+}
